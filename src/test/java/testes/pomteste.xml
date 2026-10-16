@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Contem um DOCTYPE simples e INOFENSIVO (sem entidade externa).
+     Serve para testar se o seu parser recusa DOCTYPE, como combinado. -->
+<!DOCTYPE project [
+        <!ELEMENT project ANY>
+        ]>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.exemplo</groupId>
+    <artifactId>projeto-com-doctype</artifactId>
+    <version>1.0.0</version>
+    <dependencies>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>2.0.13</version>
+        </dependency>
+    </dependencies>
+</project>

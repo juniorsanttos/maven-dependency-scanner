@@ -8,6 +8,7 @@ class ScannerDependenciasApplicationTests {
 
     @Test
     void contextLoads() {
+
     }
 
 }

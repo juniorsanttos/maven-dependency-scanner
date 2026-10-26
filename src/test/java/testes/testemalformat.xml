@@ -8,7 +8,7 @@
     <dependencies>
         <dependency>
             <groupId>com.google.guava</groupId>
-            <artifactId>guava</artifactId>
+            <artifactI>guava</artifactI>
             <!-- ERRO PROPOSITAL: a tag abre como <version> e fecha como </versions> -->
             <version>33.0.0-jre</versions>
         </dependency>

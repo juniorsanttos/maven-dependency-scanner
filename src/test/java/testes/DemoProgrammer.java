@@ -17,9 +17,7 @@ public class DemoProgrammer {
 
         try {
             NodeList xmlContent = parser.analyzeXML(new File("src/test/java/testes/xml.xml"));
-            NodeList xmlContent01 = parser.analyzeXML(new File("src/test/java/testes/xml.xml"));
             parser.parseDependencies(xmlContent);
-            parser.parseDependencies(xmlContent01);
 
         }catch (ParserConfigurationException e) {
             throw new ParserConfigurationException("ERRO AO CRIAR E CONFIGURAR PARSER!!!" + e);
